@@ -22,3 +22,4 @@ func (l lexer) andvanced(){
 		l.currentchar = l.input[pos]
 	}
 }
+
