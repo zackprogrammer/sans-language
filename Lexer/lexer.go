@@ -1,5 +1,10 @@
 package lexer
 
+// Lexer represents a lexer for Monkey programming language.
+type Lexer interface {
+	// NextToken returns a next token.
+	NextToken() token.Token
+}
 
 type lexer struct {
 	input string
