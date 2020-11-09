@@ -1,9 +1,4 @@
 package lexer
-// Lexer interferface. Btw idk what it means.
-type Lexer interface {
-	// NextToken returns a next token.
-	NextToken() token.Token
-}
 
 
 type lexer struct {
